@@ -1,0 +1,125 @@
+.singIn_wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 30px;
+}
+.singIn_link {
+    display: flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: #313037;
+}
+.singIn_title {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+    padding-bottom: 72px;
+}
+.singIn {
+    margin-left: 248px;
+    background: #ffffff;
+
+    border-radius: 16px;
+    gap: 10px;
+    width: 624px;
+}
+.singIn_menu {
+    padding: 40px;
+}
+
+.singIn_email {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 8px;
+}
+.singIn_inputEmail {
+    width: 544px;
+    height: 56px;
+    top: 28px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid #3130371a;
+}
+.singIn_password {
+    padding-top: 40px;
+    padding-bottom: 9px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.singIn_inputPassword {
+    width: 544px;
+    height: 56px;
+    top: 28px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid #3130371a;
+}
+.singIn_forgotPassword {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+.btnSingIn {
+    width: 100%;
+    background: #6c1bdb;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 16px 0;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.singIn_comp {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+}
+.singIn_linkSingUp {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #6c1bdb;
+}

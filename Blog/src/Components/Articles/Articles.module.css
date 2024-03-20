@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+}
+.link_articles {
+    text-decoration: none;
+    color: #313037;
+    background-color: white;
+    border-radius: 16px;
+}
+.link {
+    text-decoration: none;
+    color: #313037;
+}
+.articlesHeader {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.card_title {
+    color: #313037;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.articles_choice {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #3130371a;
+}
+.articles_choice_articles {
+    padding: 0 40px 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #313037;
+    border-bottom: 2px solid black;
+}
+.articles_choice_news {
+    padding: 0 40px 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #313037;
+}
+.selection {
+    display: flex;
+    flex-direction: row;
+    gap: 329px;
+}
+.data_selection {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.data_data {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    border-radius: 4px;
+    background: #6c1bdb;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+.data_week {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    border-radius: 4px;
+    margin: 0;
+    background: #3130371a;
+    border: none;
+    cursor: pointer;
+}
+.data_monath {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    border-radius: 4px;
+    margin: 0;
+    background: #3130371a;
+    border: none;
+    cursor: pointer;
+}
+.data_year {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    border-radius: 4px;
+    margin: 0;
+    background: #3130371a;
+    border: none;
+    cursor: pointer;
+}
+.sort_selection {
+    background-color: white;
+    width: 256px;
+}
+.articles {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.articles_Component {
+    display: grid;
+    grid-template-columns: 352px 352px 352px;
+    gap: 32px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: white;
+    overflow: hidden;
+}
+.blok_img {
+    position: relative;
+    width: 352px;
+    height: 208px;
+    margin: 0 auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.blok_img::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        133.87deg,
+        rgba(77, 10, 199, 0.6) -10.18%,
+        rgba(145, 46, 242, 0.6) 108.59%
+    );
+    opacity: 0.6;
+}
+.img {
+    width: 100%;
+    height: 100%;
+
+    background-blend-mode: overlay;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.blok_img:hover.blok_img::after {
+    content: "";
+    display: block;
+
+    opacity: 0.6;
+    background: linear-gradient(
+        133.87deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 0%
+    );
+}
+.card_component_text {
+    padding: 32px;
+}
+.data {
+    color: #31303780;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 8px;
+}
+.title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+}
+.articlesItem {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.link_home {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 32px;
+}
+.home {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+}
+.home_id {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #31303780;
+}
+.title_item {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 38px;
+}
+.image {
+    height: 518px;
+    width: 1200px;
+    border-radius: 16px;
+    padding-bottom: 48px;
+}
+.comp {
+    padding: 0 100px;
+    padding-bottom: 72px;
+    border-bottom: 1px solid #3130371a;
+}
+.card_text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+    padding-bottom: 48px;
+}
+.network {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.facebook {
+    width: Hug (88px);
+    height: Hug (56px);
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #3130371a;
+}
+.facebook svg {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+.twitter {
+    width: Hug (88px);
+    height: Hug (56px);
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #3130371a;
+}
+.twitter svg {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+.other {
+    width: Hug (88px);
+    height: Hug (56px);
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #3130371a;
+}
+.other svg {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
